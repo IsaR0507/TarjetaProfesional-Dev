@@ -28,53 +28,17 @@
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "order": 0.4038940050501252
     },
-    "729478ae-d067-4e0c-a753-66c2e9efb625": {
-      "components": {
-        "8fe14f4e-4311-4b03-807d-a34c9c11368d": {
-          "id": "8fe14f4e-4311-4b03-807d-a34c9c11368d",
-          "name": "example-component",
-          "parameters": {}
-        }
-      },
-      "geometry": {
-        "depth": 1,
-        "height": 1,
-        "type": "box",
-        "width": 1
-      },
-      "id": "729478ae-d067-4e0c-a753-66c2e9efb625",
-      "material": {
-        "color": "#7611b6",
-        "type": "basic",
-        "textureFiltering": "sharp"
-      },
-      "name": "Box",
-      "position": [
-        0,
-        0.5,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "order": 1.4038940050501252
-    },
     "a608ddd9-9379-464d-966f-5d8d8674c83c": {
       "camera": {
         "type": "perspective",
         "xr": {
-          "desktop": "3D",
-          "xrCameraType": "3dOnly",
-          "headset": "disabled"
+          "desktop": "disabled",
+          "xrCameraType": "world",
+          "headset": "disabled",
+          "phone": "AR",
+          "world": {
+            "disableWorldTracking": true
+          }
         }
       },
       "components": {},
@@ -129,6 +93,100 @@
       ],
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "order": 0.6644431107322474
+    },
+    "0f3f4e37-078c-42a1-a827-a5104fecfd83": {
+      "id": "0f3f4e37-078c-42a1-a827-a5104fecfd83",
+      "position": [
+        -0.030114867898337616,
+        0,
+        -0.10866037104679283
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/model.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "model.glb",
+      "order": 2.340576561666655
+    },
+    "be26f1e1-19d6-41eb-ab55-f1cd06b15caf": {
+      "id": "be26f1e1-19d6-41eb-ab55-f1cd06b15caf",
+      "position": [
+        -0.013546283260553918,
+        -0.05757375732274908,
+        -8.795779990328101e-18
+      ],
+      "rotation": [
+        0.7071067811865476,
+        -4.363422735152303e-33,
+        2.3898831984395159e-32,
+        0.7071067811865475
+      ],
+      "scale": [
+        0.5,
+        0.3440167302683786,
+        0.5
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "b33339c2-4255-4c36-a9c1-13f7b09ad973",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/AvatarFinal.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "AvatarFinal.glb",
+      "order": 7.021989729906141
+    },
+    "b33339c2-4255-4c36-a9c1-13f7b09ad973": {
+      "id": "b33339c2-4255-4c36-a9c1-13f7b09ad973",
+      "position": [
+        0.05,
+        0,
+        0.13654693046990563
+      ],
+      "rotation": [
+        -0.7071067811865476,
+        8.48066716408393e-33,
+        -1.7914756114422743e-32,
+        0.7071067811865475
+      ],
+      "scale": [
+        1,
+        1,
+        1.4534176858489813
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Objetivo de la imagen",
+      "imageTarget": {
+        "name": "TarjetaPruebaImagen"
+      },
+      "order": 5.093627639428218
     }
   },
   "spaces": {
