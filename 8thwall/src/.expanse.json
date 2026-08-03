@@ -154,7 +154,7 @@
           "type": "asset",
           "asset": "assets/AvatarFinal.glb"
         },
-        "animationClip": "",
+        "animationClip": "CapoeiraDance",
         "loop": true
       },
       "name": "AvatarFinal.glb",
