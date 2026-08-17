@@ -94,50 +94,17 @@
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "order": 0.6644431107322474
     },
-    "0f3f4e37-078c-42a1-a827-a5104fecfd83": {
-      "id": "0f3f4e37-078c-42a1-a827-a5104fecfd83",
-      "position": [
-        -0.030114867898337616,
-        0,
-        -0.10866037104679283
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
-      "components": {},
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/model.glb"
-        },
-        "animationClip": "",
-        "loop": true
-      },
-      "name": "model.glb",
-      "order": 2.340576561666655
-    },
     "be26f1e1-19d6-41eb-ab55-f1cd06b15caf": {
       "id": "be26f1e1-19d6-41eb-ab55-f1cd06b15caf",
       "position": [
-        -0.013546283260553918,
+        -3.4211388289180104e-49,
         -0.05757375732274908,
         -8.795779990328101e-18
       ],
       "rotation": [
         0.7071067811865476,
-        -4.363422735152303e-33,
-        2.3898831984395159e-32,
+        -6.426265482216949e-34,
+        3.175872731463904e-32,
         0.7071067811865475
       ],
       "scale": [
@@ -158,12 +125,12 @@
         "loop": true
       },
       "name": "AvatarFinal.glb",
-      "order": 7.021989729906141
+      "order": 6.242038543162942
     },
     "b33339c2-4255-4c36-a9c1-13f7b09ad973": {
       "id": "b33339c2-4255-4c36-a9c1-13f7b09ad973",
       "position": [
-        0.05,
+        0,
         0,
         0.13654693046990563
       ],
@@ -184,9 +151,45 @@
       "components": {},
       "name": "Objetivo de la imagen",
       "imageTarget": {
-        "name": "TarjetaPruebaImagen"
+        "name": "BackTarget"
       },
       "order": 5.093627639428218
+    },
+    "3bc3b675-e248-4c6b-a535-b5fe82eb6c48": {
+      "id": "3bc3b675-e248-4c6b-a535-b5fe82eb6c48",
+      "position": [
+        -3.9663568345078785e-32,
+        0.9786456063037688,
+        0.4904065492614949
+      ],
+      "rotation": [
+        0.7071067811865476,
+        -6.4262654822169684e-34,
+        3.175872731463904e-32,
+        0.7071067811865475
+      ],
+      "scale": [
+        1,
+        0.6880334971487253,
+        1.0000000532124818
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/VideoVRCompressed_VR.mp4"
+        }
+      },
+      "parentId": "b33339c2-4255-4c36-a9c1-13f7b09ad973",
+      "components": {},
+      "name": "Plano",
+      "order": 3.2962801308578973
     }
   },
   "spaces": {
