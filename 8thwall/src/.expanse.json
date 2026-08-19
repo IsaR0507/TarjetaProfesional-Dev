@@ -121,7 +121,7 @@
           "type": "asset",
           "asset": "assets/AvatarFinal.glb"
         },
-        "animationClip": "",
+        "animationClip": "*",
         "loop": true
       },
       "name": "AvatarFinal.glb",
@@ -158,20 +158,20 @@
     "3bc3b675-e248-4c6b-a535-b5fe82eb6c48": {
       "id": "3bc3b675-e248-4c6b-a535-b5fe82eb6c48",
       "position": [
-        -0.21179850941931014,
-        0.9823545686243539,
-        0.5418794254408412
+        -9.89147806174988,
+        8.21696990469071,
+        1.4590662433531818
       ],
       "rotation": [
-        0.7069990855261375,
-        0.012340715050997549,
-        0.01234071437722493,
-        0.7069990852751958
+        2.1936031297794646e-10,
+        0.7071067809608143,
+        -2.8616357796799784e-10,
+        0.7071067814122808
       ],
       "scale": [
-        0.5000000000000084,
-        0.1999999999989621,
-        0.10000000532072906
+        5.0000000000002744,
+        2.906835371665759,
+        1.0000000532014004
       ],
       "geometry": {
         "type": "plane",
@@ -186,10 +186,13 @@
           "asset": "assets/VideoVRCompressed_VR.mp4"
         }
       },
-      "parentId": "b33339c2-4255-4c36-a9c1-13f7b09ad973",
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "components": {},
-      "name": "Plano",
-      "order": 6.054015241104182
+      "name": "PlanoVideo",
+      "order": 6.842999080172659,
+      "videoControls": {
+        "paused": true
+      }
     },
     "0d1fd364-f6fa-4063-8862-096cebdb8d4f": {
       "id": "0d1fd364-f6fa-4063-8862-096cebdb8d4f",
@@ -223,6 +226,137 @@
       },
       "name": "PiezaVR.glb",
       "order": 8.566491944829547
+    },
+    "044be96c-e5d6-47f4-865a-208e3713cd80": {
+      "id": "044be96c-e5d6-47f4-865a-208e3713cd80",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "3bc3b675-e248-4c6b-a535-b5fe82eb6c48",
+      "components": {
+        "445c2fae-4e89-4342-ad4c-dab7fb511421": {
+          "id": "445c2fae-4e89-4342-ad4c-dab7fb511421",
+          "name": "Pause Video",
+          "parameters": {
+            "videoEntity": {
+              "type": "entity",
+              "id": "3bc3b675-e248-4c6b-a535-b5fe82eb6c48"
+            },
+            "pauseIcon": {
+              "type": "entity",
+              "id": "b4699064-657b-41af-81ac-b4381f51d0ee"
+            },
+            "playIcon": {
+              "type": "entity",
+              "id": "3c6e54e1-6590-488d-9ca8-e8aaaeef920d"
+            }
+          }
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#969696",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "ignoreRaycast": false,
+        "flexWrap": "nowrap",
+        "opacity": 0
+      },
+      "name": "Botón",
+      "order": 1.678797496497523
+    },
+    "b4699064-657b-41af-81ac-b4381f51d0ee": {
+      "id": "b4699064-657b-41af-81ac-b4381f51d0ee",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "044be96c-e5d6-47f4-865a-208e3713cd80",
+      "components": {},
+      "name": "IconoPausa",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/boton-de-pausa-de-video.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 0.07091074175335998,
+      "disabled": true
+    },
+    "3c6e54e1-6590-488d-9ca8-e8aaaeef920d": {
+      "id": "3c6e54e1-6590-488d-9ca8-e8aaaeef920d",
+      "position": [
+        -0.323,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "044be96c-e5d6-47f4-865a-208e3713cd80",
+      "components": {},
+      "name": "IconoPlay",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/tocar.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain"
+      },
+      "order": 1.4388218753085336
     }
   },
   "spaces": {
