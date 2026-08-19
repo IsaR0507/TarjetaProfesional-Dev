@@ -9,7 +9,7 @@ ecs.registerComponent({
       .initial()
       .onEnter(() => {
         ecs.GltfModel.mutate(world, eid, (cursor) => {
-          cursor.animationClip = 'Idle'
+          cursor.animationClip = 'IdleAvatar'
           cursor.loop = true
           cursor.repetitions = -1
           return false
@@ -22,7 +22,7 @@ ecs.registerComponent({
     ecs.defineState('dance')
       .onEnter(() => {
         ecs.GltfModel.mutate(world, eid, (cursor) => {
-          cursor.animationClip = 'Breakdance_Freeze_Var_3'
+          cursor.animationClip = 'CapoeiraDance'
           cursor.loop = false
           cursor.repetitions = 0
           return false
