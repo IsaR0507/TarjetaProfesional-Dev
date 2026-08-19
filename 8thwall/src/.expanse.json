@@ -127,7 +127,7 @@
           "type": "asset",
           "asset": "assets/AvatarFinal.glb"
         },
-        "animationClip": "IdleAvatar",
+        "animationClip": "*",
         "loop": true
       },
       "name": "AvatarFinal.glb",
@@ -200,9 +200,9 @@
       "parentId": "b33339c2-4255-4c36-a9c1-13f7b09ad973",
       "components": {},
       "name": "PlanoVideo",
-      "order": 6.55271100228785,
+      "order": 5.404755392186944,
       "videoControls": {
-        "paused": true
+        "paused": false
       }
     },
     "0d1fd364-f6fa-4063-8862-096cebdb8d4f": {
@@ -241,20 +241,20 @@
     "044be96c-e5d6-47f4-865a-208e3713cd80": {
       "id": "044be96c-e5d6-47f4-865a-208e3713cd80",
       "position": [
-        0,
-        0,
-        0
+        1.0247902526572261e-10,
+        2.573559143570492e-10,
+        0.408275934413167
       ],
       "rotation": [
-        0,
-        0,
-        0,
+        3.520077605074089e-26,
+        2.5849394142282103e-26,
+        -6.462348535570526e-27,
         1
       ],
       "scale": [
         1,
-        1,
-        1
+        1.0000000000000004,
+        1.0000000000000004
       ],
       "geometry": null,
       "material": null,
@@ -305,7 +305,7 @@
         "justifyContent": "center",
         "ignoreRaycast": false,
         "flexWrap": "nowrap",
-        "opacity": 1
+        "opacity": 0
       },
       "name": "Botón",
       "order": 1.678797496497523
