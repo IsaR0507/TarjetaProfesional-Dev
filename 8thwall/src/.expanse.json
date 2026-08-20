@@ -125,7 +125,7 @@
       "gltfModel": {
         "src": {
           "type": "asset",
-          "asset": "assets/AvatarFinal.glb"
+          "asset": "assets/Modelos/AvatarFinal.glb"
         },
         "animationClip": "CapoeiraDance",
         "loop": true
@@ -169,20 +169,20 @@
     "3bc3b675-e248-4c6b-a535-b5fe82eb6c48": {
       "id": "3bc3b675-e248-4c6b-a535-b5fe82eb6c48",
       "position": [
-        -0.21179850941924708,
-        0.9823545686243997,
-        0.5418794254408548
+        -0.21179850941922604,
+        0.9823545686244151,
+        0.5418794254408593
       ],
       "rotation": [
-        0.7069990860354531,
-        0.012340714585405928,
-        0.012340714311866032,
-        0.7069990847776847
+        0.7069990861840857,
+        0.01234071438886961,
+        0.012340714580296862,
+        0.7069990846307104
       ],
       "scale": [
-        0.5000000000000496,
-        0.19999999999564252,
-        0.10000000531906889
+        0.5000000000000643,
+        0.19999999999517984,
+        0.1000000053188374
       ],
       "geometry": {
         "type": "plane",
@@ -194,15 +194,15 @@
         "color": "#FFFFFF",
         "textureSrc": {
           "type": "asset",
-          "asset": "assets/VideoVRCompressed_VR.mp4"
+          "asset": "assets/Videos/VideoVRCompressed_VR.mp4"
         }
       },
       "parentId": "b33339c2-4255-4c36-a9c1-13f7b09ad973",
       "components": {},
       "name": "PlanoVideo",
-      "order": 9.721773187195915,
+      "order": 11.120475809029147,
       "videoControls": {
-        "paused": false
+        "paused": true
       }
     },
     "0d1fd364-f6fa-4063-8862-096cebdb8d4f": {
@@ -230,7 +230,7 @@
       "gltfModel": {
         "src": {
           "type": "asset",
-          "asset": "assets/PiezaVR.glb"
+          "asset": "assets/Modelos/PiezaVR.glb"
         },
         "animationClip": "",
         "loop": true
@@ -295,17 +295,14 @@
         "type": "3d",
         "width": 100,
         "height": 36,
-        "background": "#969696",
-        "borderRadius": 18,
         "flexDirection": "row",
-        "backgroundOpacity": 1,
         "padding": "10",
         "gap": "6",
         "alignItems": "center",
         "justifyContent": "center",
         "ignoreRaycast": false,
         "flexWrap": "nowrap",
-        "opacity": 0
+        "opacity": 0.5
       },
       "name": "Botón",
       "order": 1.678797496497523
@@ -338,10 +335,15 @@
         "height": 16,
         "image": {
           "type": "asset",
-          "asset": "assets/boton-de-pausa-de-video.png"
+          "asset": "assets/Fotos/boton-de-pausa-de-video.png"
         },
         "backgroundOpacity": 1,
-        "backgroundSize": "contain"
+        "backgroundSize": "contain",
+        "position": "absolute",
+        "top": "",
+        "left": "",
+        "bottom": "",
+        "right": ""
       },
       "order": 0.07091074175335998
     },
@@ -373,12 +375,177 @@
         "height": 16,
         "image": {
           "type": "asset",
-          "asset": "assets/tocar.png"
+          "asset": "assets/Fotos/tocar.png"
         },
         "backgroundOpacity": 1,
-        "backgroundSize": "contain"
+        "backgroundSize": "contain",
+        "position": "absolute",
+        "top": "",
+        "left": "",
+        "bottom": "",
+        "right": ""
       },
       "order": 1.4388218753085336
+    },
+    "10e42131-5649-4546-b20e-30dc906f17dd": {
+      "id": "10e42131-5649-4546-b20e-30dc906f17dd",
+      "position": [
+        -0.4465565107653523,
+        1.1356636803190994,
+        0.7453135521247629
+      ],
+      "rotation": [
+        0.012340714944051439,
+        -0.7069990851035873,
+        0.01234071492879405,
+        0.7069990856940616
+      ],
+      "scale": [
+        0.10320501908051241,
+        0.14999999999999827,
+        0.14999999999999838
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "b33339c2-4255-4c36-a9c1-13f7b09ad973",
+      "components": {
+        "2766a1ac-0ca4-435a-86e7-90762a40afbe": {
+          "id": "2766a1ac-0ca4-435a-86e7-90762a40afbe",
+          "name": "linkButton",
+          "parameters": {
+            "button": {
+              "type": "entity",
+              "id": "10e42131-5649-4546-b20e-30dc906f17dd"
+            },
+            "url": "https://wa.me/qr/OY2ZUDFKHBTZI1"
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Modelos/WhatsappIcono.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "WhatsappIcono.glb",
+      "order": 11.363897188496015,
+      "collider": {
+        "geometry": {
+          "type": "box",
+          "depth": 1,
+          "height": 1,
+          "width": 1
+        }
+      }
+    },
+    "b4cd266e-d25f-4d54-9891-c44db451e2bf": {
+      "id": "b4cd266e-d25f-4d54-9891-c44db451e2bf",
+      "position": [
+        -0.1329935110833953,
+        1.1466135415521215,
+        0.7453135519565596
+      ],
+      "rotation": [
+        0.7072608283724752,
+        -0.005573937898626602,
+        0.7062830366710052,
+        -0.020826553721979994
+      ],
+      "scale": [
+        0.41309964728254184,
+        0.5998075498270875,
+        0.5999999999999925
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "b33339c2-4255-4c36-a9c1-13f7b09ad973",
+      "components": {
+        "2dc65e5d-bde8-4ca1-9eea-0db0c29bd213": {
+          "id": "2dc65e5d-bde8-4ca1-9eea-0db0c29bd213",
+          "name": "linkButton",
+          "parameters": {
+            "button": {
+              "type": "entity",
+              "id": "b4cd266e-d25f-4d54-9891-c44db451e2bf"
+            },
+            "url": "https://www.instagram.com/isar007l/"
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Modelos/InstagramIcono.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "InstagramIcono.glb",
+      "order": 11.607318567962881,
+      "collider": {
+        "geometry": {
+          "type": "auto"
+        },
+        "offsetX": -0.09999999999999973
+      }
+    },
+    "c5474b95-6bd9-4f6b-a3b2-7af458bf3b3e": {
+      "id": "c5474b95-6bd9-4f6b-a3b2-7af458bf3b3e",
+      "position": [
+        0.032617909184560805,
+        1.1523968197846173,
+        0.7431041753288737
+      ],
+      "rotation": [
+        -0.017452406437259843,
+        0.9998476951563917,
+        1.0784631199181393e-11,
+        -4.1752834791556275e-10
+      ],
+      "scale": [
+        0.24999999999999734,
+        0.24999999999999717,
+        0.17200836513418735
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "b33339c2-4255-4c36-a9c1-13f7b09ad973",
+      "components": {
+        "586f4029-024f-4d5d-a491-13bffd7fe111": {
+          "id": "586f4029-024f-4d5d-a491-13bffd7fe111",
+          "name": "linkButton",
+          "parameters": {
+            "button": {
+              "type": "entity",
+              "id": "c5474b95-6bd9-4f6b-a3b2-7af458bf3b3e"
+            },
+            "url": "https://github.com/IsaR0507"
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Modelos/GithubIcono.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "GithubIcono.glb",
+      "order": 11.85073994742975,
+      "collider": {
+        "geometry": {
+          "type": "box",
+          "depth": 0.6,
+          "height": 0.2,
+          "width": 0.6000000000000001
+        },
+        "offsetX": 0,
+        "mass": 0,
+        "type": "static"
+      }
     }
   },
   "spaces": {
